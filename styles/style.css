@@ -14,16 +14,7 @@ body{
     
 }
 .login{
-    /* margin-right:20px;
-    cursor: pointer;
 
-    height: 40px;
-    width: 60px;
-    padding-right: 24px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size: x-small; */
     padding: 0 16px;
     display: flex;
     color: #a8afbd;
@@ -31,9 +22,8 @@ body{
     align-items: center;
     height: 40px;
     border-radius: 10px;
-    
-    
     cursor: pointer;
+    width:57px;
 
 }
 
@@ -80,7 +70,7 @@ body{
 .image{
     height: inherit;
     width: inherit;
-    background-image: url(public/bg.jpeg);
+    background-image: url(../public/bg.jpeg);
     background-size:cover ;
 
 }

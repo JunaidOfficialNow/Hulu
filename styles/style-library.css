@@ -1,7 +1,6 @@
 .library-header-main{
     width:100%;
     height: 305.25px;
-    /* background-color: rgb(73, 124, 169); */
     display: flex;
     justify-content: center;
     
@@ -69,7 +68,6 @@
     grid-template-columns: repeat(4, 295px);
     grid-template-rows: auto;
     
-    /* background-color: red; */
 }
 .library-grid-item button {
     width: 295px;
@@ -86,7 +84,7 @@
     cursor: pointer;
     position: relative;
     text-align: left;
-    background-image: url(public/original.jpeg);
+    background-image: url(../public/original.jpeg);
     background-size: cover;
     height: 451.52px;
     
@@ -117,7 +115,7 @@
     cursor: pointer;
     position: relative;
     text-align: left;
-    background-image: url(public/bg2.jpeg);
+    background-image: url(../public/bg2.jpeg);
     background-size: cover;
     height: 451.52px;
     
@@ -126,7 +124,7 @@
     cursor: pointer;
     position: relative;
     text-align: left;
-    background-image: url(public/bg1.jpeg);
+    background-image: url(../public/bg1.jpeg);
     background-size: cover;
     height: 451.52px;
     
@@ -135,7 +133,7 @@
     cursor: pointer;
     position: relative;
     text-align: left;
-    background-image: url(public/hod.jpeg);
+    background-image: url(../public/hod.jpeg);
     background-size: cover;
     height: 451.52px;
     
@@ -156,6 +154,9 @@
     height: 283px;
     display:flex;
     align-items: center;
+}
+.footer-upper:hover{
+    cursor: pointer;
 }
 .footer-bottom{
     width: 100%;
